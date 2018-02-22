@@ -5,7 +5,10 @@ package boletin21;
 public class Boletin21 {
 
     public static void main(String[] args) {
-
+        Palabras pal=new Palabras();
+        pal.añadirPalabras();
+        pal.ordenarLista();
+        pal.escribirFrase();
     }
 
 }
